@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/johnnie-website-react/static/css/main.0e398939.css",
+    "main.js": "/johnnie-website-react/static/js/main.f4477103.js",
+    "static/js/787.77e6c24f.chunk.js": "/johnnie-website-react/static/js/787.77e6c24f.chunk.js",
+    "index.html": "/johnnie-website-react/index.html",
+    "main.0e398939.css.map": "/johnnie-website-react/static/css/main.0e398939.css.map",
+    "main.f4477103.js.map": "/johnnie-website-react/static/js/main.f4477103.js.map",
+    "787.77e6c24f.chunk.js.map": "/johnnie-website-react/static/js/787.77e6c24f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e398939.css",
+    "static/js/main.f4477103.js"
+  ]
+}
