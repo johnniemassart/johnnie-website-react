@@ -6,7 +6,7 @@ export const HomeImages = () => {
         {src: '.../public/images/nyc-stairs.webp', alt: 'nyc stairs', id: 2,  num: 'two'},
         {src: '.../images/nyc-streets-j.webp', alt: 'nyc streets', id: 3, num: 'three'},
         {src: '../images/palm-trees.webp', alt: 'palm trees', id: 4, num: 'four'},
-        {src: '/images/pmoa.webp', alt: 'philadelphia museum of art', id: 5, num: 'five'}
+        {src: './images/pmoa.webp', alt: 'philadelphia museum of art', id: 5, num: 'five'}
     ];
 
     const [position, setPosition] = useState(false);
@@ -22,7 +22,7 @@ export const HomeImages = () => {
     return (
             <div className="img-container">
                 {images.map((image) => {
-                    return <img src={image.src} alt={image.alt} key={image.id} className={`img ${image.num} ${position ? 'positioning' : ''}`}/>
+                    return <img src={require(image.src).default} alt={image.alt} key={image.id} className={`img ${image.num} ${position ? 'positioning' : ''}`}/>
                 })}
             </div>
     );
