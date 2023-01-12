@@ -1,12 +1,19 @@
 import { useState, useEffect } from "react";
 
 export const HomeImages = () => {
+//     const images = [
+//         {src: './johnnie-website-react/images/image-board.webp', alt: 'image board', id: 1, num: 'one'},
+//         {src: './images/nyc-stairs.webp', alt: 'nyc stairs', id: 2,  num: 'two'},
+//         {src: './images/nyc-streets-j.webp', alt: 'nyc streets', id: 3, num: 'three'},
+//         {src: './images/palm-trees.webp', alt: 'palm trees', id: 4, num: 'four'},
+//         {src: './images/pmoa.webp', alt: 'philadelphia museum of art', id: 5, num: 'five'}
+//     ];
+    
     const images = [
         {src: './johnnie-website-react/images/image-board.webp', alt: 'image board', id: 1, num: 'one'},
         {src: './images/nyc-stairs.webp', alt: 'nyc stairs', id: 2,  num: 'two'},
         {src: './images/nyc-streets-j.webp', alt: 'nyc streets', id: 3, num: 'three'},
-        {src: './images/palm-trees.webp', alt: 'palm trees', id: 4, num: 'four'},
-        {src: './images/pmoa.webp', alt: 'philadelphia museum of art', id: 5, num: 'five'}
+        {src: './images/palm-trees.webp', alt: 'palm trees', id: 4, num: 'four'}
     ];
 
     const [position, setPosition] = useState(false);
