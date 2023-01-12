@@ -22,7 +22,7 @@ export const HomeImages = () => {
     return (
             <div className="img-container">
                 {images.map((image) => {
-                    return <img src={image.src} alt={image.alt} key={image.id} className={`img ${image.num} ${position ? 'positioning' : ''}`}/>
+                    return <img src={require(image.src)} alt={image.alt} key={image.id} className={`img ${image.num} ${position ? 'positioning' : ''}`}/>
                 })}
             </div>
     );
