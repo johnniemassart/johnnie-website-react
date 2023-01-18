@@ -1,13 +1,19 @@
 import React from 'react';
 import { useState } from 'react';
+import imaged from '../Images/image-board.webp';
+import splattered from '../Images/splattered.jpeg';
+import tsrThoughts from '../Images/tsr thoughts.png';
+import tsrHome from '../Images/tsr home.png';
+import nycDoor from '../Images/nyc-door.webp';
+import jacket from '../Images/jacket.webp';
 
 export const ContentInner = () => {
     const contentInner = [
-        {h1: 'IMAGED', p: 'a project created to highlight those defining the creative industry.', src: '../images/image-board.webp', alt: 'collection board', className: 'img1', move: false},
-        {h1: 'SPLATTERED', p: 'splattered, ripped, and stitched to disregard perfection.', src: '../images/splattered.jpeg', alt: 'splattered', className: 'splattered-img', move: true},
-        {h1: 'THE SIMPLISTIC RESTORATION.', p: 'founder of the digital development agency.', src: '../images/tsr thoughts.png', src2: '../images/tsr home.png', alt: 'tsr content', alt2: 'tsr home', className: 'imgTsr-1', className2: 'imgTsr-2', move: false},
-        {h1: 'THOUGHTS', p: 'a mentality.', src: '../images/nyc-door.webp', alt: 'nyc door', className: 'thoughts-nyc-door', move: true},
-        {h1: 'UNSTRUCTURED', p: 'military green jacket sewn without buttons for an open canvas.', src: '../images/jacket.webp', alt: 'jacket', className: 'jacket-img', move: false}
+        {h1: 'IMAGED', p: 'a project created to highlight those defining the creative industry.', src: imaged, alt: 'collection board', className: 'img1', move: false},
+        {h1: 'SPLATTERED', p: 'splattered, ripped, and stitched to disregard perfection.', src: splattered, alt: 'splattered', className: 'splattered-img', move: true},
+        {h1: 'THE SIMPLISTIC RESTORATION.', p: 'founder of the digital development agency.', src: tsrThoughts, src2: tsrHome, alt: 'tsr content', alt2: 'tsr home', className: 'imgTsr-1', className2: 'imgTsr-2', move: false},
+        {h1: 'THOUGHTS', p: 'a mentality.', src: nycDoor, alt: 'nyc door', className: 'thoughts-nyc-door', move: true},
+        {h1: 'UNSTRUCTURED', p: 'military green jacket sewn without buttons for an open canvas.', src: jacket, alt: 'jacket', className: 'jacket-img', move: false}
     ];
 
     const [info, setInfo] = useState(-1);

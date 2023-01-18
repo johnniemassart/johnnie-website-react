@@ -1,12 +1,17 @@
 import { useState, useEffect } from "react";
+import imageBoard from '../Images/image-board.webp';
+import nycStairs from '../Images/nyc-stairs.webp';
+import nycStreetsJ from '../Images/nyc-streets-j.webp';
+import palmTrees from '../Images/palm-trees.webp';
+import pmoa from '../Images/pmoa.webp';
 
 export const HomeImages = () => {
     const images = [
-        {src: './images/image-board.webp', alt: 'image board', id: 1, num: 'one'},
-        {src: './images/nyc-stairs.webp', alt: 'nyc stairs', id: 2,  num: 'two'},
-        {src: './images/nyc-streets-j.webp', alt: 'nyc streets', id: 3, num: 'three'},
-        {src: './images/palm-trees.webp', alt: 'palm trees', id: 4, num: 'four'},
-        {src: './images/pmoa.webp', alt: 'philadelphia museum of art', id: 5, num: 'five'}
+        {src: imageBoard, alt: 'image board', id: 1, num: 'one'},
+        {src: nycStairs, alt: 'nyc stairs', id: 2,  num: 'two'},
+        {src: nycStreetsJ, alt: 'nyc streets', id: 3, num: 'three'},
+        {src: palmTrees, alt: 'palm trees', id: 4, num: 'four'},
+        {src: pmoa, alt: 'philadelphia museum of art', id: 5, num: 'five'}
     ];
 
     const [position, setPosition] = useState(false);
