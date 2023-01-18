@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/johnnie-website-react/static/css/main.a65445ad.css",
+    "main.css": "/johnnie-website-react/static/css/main.0e398939.css",
     "main.js": "/johnnie-website-react/static/js/main.ef5d38e2.js",
     "static/js/787.77e6c24f.chunk.js": "/johnnie-website-react/static/js/787.77e6c24f.chunk.js",
     "static/media/jacket.webp": "/johnnie-website-react/static/media/jacket.42951a2e219620f5a4b1.webp",
@@ -14,12 +14,12 @@
     "static/media/nyc-stairs.webp": "/johnnie-website-react/static/media/nyc-stairs.66c4eaae67c74365ce5a.webp",
     "static/media/palm-trees.webp": "/johnnie-website-react/static/media/palm-trees.34f1cf321cc6e6329167.webp",
     "index.html": "/johnnie-website-react/index.html",
-    "main.a65445ad.css.map": "/johnnie-website-react/static/css/main.a65445ad.css.map",
+    "main.0e398939.css.map": "/johnnie-website-react/static/css/main.0e398939.css.map",
     "main.ef5d38e2.js.map": "/johnnie-website-react/static/js/main.ef5d38e2.js.map",
     "787.77e6c24f.chunk.js.map": "/johnnie-website-react/static/js/787.77e6c24f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a65445ad.css",
+    "static/css/main.0e398939.css",
     "static/js/main.ef5d38e2.js"
   ]
 }
