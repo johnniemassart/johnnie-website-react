@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/johnnie-website-react/static/css/main.0e398939.css",
-    "main.js": "/johnnie-website-react/static/js/main.f4477103.js",
+    "main.css": "/johnnie-website-react/static/css/main.a65445ad.css",
+    "main.js": "/johnnie-website-react/static/js/main.ef5d38e2.js",
     "static/js/787.77e6c24f.chunk.js": "/johnnie-website-react/static/js/787.77e6c24f.chunk.js",
+    "static/media/jacket.webp": "/johnnie-website-react/static/media/jacket.42951a2e219620f5a4b1.webp",
+    "static/media/tsr home.png": "/johnnie-website-react/static/media/tsr home.71e1d0375b31121301a5.png",
+    "static/media/splattered.jpeg": "/johnnie-website-react/static/media/splattered.da3a8459380b9d177a83.jpeg",
+    "static/media/tsr thoughts.png": "/johnnie-website-react/static/media/tsr thoughts.966f2a5d8f25318e4a24.png",
+    "static/media/nyc-door.webp": "/johnnie-website-react/static/media/nyc-door.6eef9c9e1a80c877dea2.webp",
+    "static/media/pmoa.webp": "/johnnie-website-react/static/media/pmoa.12bcafaed0f95a4fae02.webp",
+    "static/media/image-board.webp": "/johnnie-website-react/static/media/image-board.c43ba22eb006fd493579.webp",
+    "static/media/nyc-streets-j.webp": "/johnnie-website-react/static/media/nyc-streets-j.d29324d3ffb0ae37c346.webp",
+    "static/media/nyc-stairs.webp": "/johnnie-website-react/static/media/nyc-stairs.66c4eaae67c74365ce5a.webp",
+    "static/media/palm-trees.webp": "/johnnie-website-react/static/media/palm-trees.34f1cf321cc6e6329167.webp",
     "index.html": "/johnnie-website-react/index.html",
-    "main.0e398939.css.map": "/johnnie-website-react/static/css/main.0e398939.css.map",
-    "main.f4477103.js.map": "/johnnie-website-react/static/js/main.f4477103.js.map",
+    "main.a65445ad.css.map": "/johnnie-website-react/static/css/main.a65445ad.css.map",
+    "main.ef5d38e2.js.map": "/johnnie-website-react/static/js/main.ef5d38e2.js.map",
     "787.77e6c24f.chunk.js.map": "/johnnie-website-react/static/js/787.77e6c24f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e398939.css",
-    "static/js/main.f4477103.js"
+    "static/css/main.a65445ad.css",
+    "static/js/main.ef5d38e2.js"
   ]
 }
